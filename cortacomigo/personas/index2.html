@@ -92,8 +92,15 @@ b {font-weight: bold; font-size: 18px; }
 ul li {margin: 10px;  padding: 12px; font-size: 16px; font-weight: normal; border-bottom:2px solid #eeed;}
 
 hr {margin: 30px 0px; }
+.home {text-align: right; font-size: 16px; padding:20px; text-transform: uppercase; margin:18px 0px;}
+.home a, .home a:hover, .home a:active {text-decoration: none; color:#1d1d1d; border: 1px solid #ccc; padding:5px 8px;}
+
 .button {text-align: left; font-size: 16px; padding:20px; text-transform: uppercase; margin:18px 0px;}
 .button a, .button a:hover, .button a:active {text-decoration: none; color:#1d1d1d; border: 1px solid #ccc; padding:5px 8px;}
+
+.esq {float: left; text-align:left; width:48%;}
+.dir {float: right; text-align:right; width:48%;}
+.clearfix {clear: both; margin:2px;}
 
  </style>    
 
@@ -141,13 +148,16 @@ hr {margin: 30px 0px; }
      
              <hr/> 
 
-             <h2>Scenario:</h2>
+             <h1>Scenario:</h1>
               <p>Karen está à procura de um salão para fazer sua sobrancelha, cabelo e maquiagem. Em outras situações Karen necessitou dos mesmos serviços e não encontrou tudo que necessitava no mesmo espaço físico. </p>
               <br/>
               <p>Ficou conhecendo o aplicativo “Corta Comigo?” através do seu amigo Jó e resolveu baixar. Encontrou no aplicativo um salão chamado Tribbiani, que oferece tudo que ela necessita, marcou um horário e ficou muito satisfeita!</p>
          
          
-              <div class="button"><a href="index.html">Voltar</a></div>
+              <div class="dir"><div class="home"><a href="../index.html">Ir para o Protótipo</a></div></div>
+              <div class="esq"><div class="button"><a href="index.html">Voltar</a></div></div>
+              <div class="clearfix"></div>
+              
                
                </div>      
          
